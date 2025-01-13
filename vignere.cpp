@@ -2,7 +2,7 @@
 
 
 #include "alphabet.hpp"
-#include "general.hpp"
+#include "case.hpp"
 #include "caesar.hpp"
 
 std::string v_fix_key(std::string text, std::string key) {
