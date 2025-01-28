@@ -1,2 +1,6 @@
+railFence :: String -> Int -> String
+
+
 main :: IO()
-main = putStrLn "Hello, World"
+main = railFence(plaintext, depth)
+
