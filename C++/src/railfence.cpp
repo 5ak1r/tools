@@ -1,7 +1,7 @@
-#include "railfence.hpp"
-
 #include <iostream>
 #include <cmath>
+
+#include "../include/railfence.hpp"
 
 std::string rail_encrypt(std::string plaintext, int depth) {
     std::string railfence[depth];

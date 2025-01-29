@@ -1,6 +1,6 @@
-#include "alphabet.hpp"
-
 #include <algorithm>
+
+#include "../include/case.hpp"
 
 std::string upper(std::string text) {
     std::transform(text.begin(), text.end(), text.begin(),

@@ -1,9 +1,9 @@
 #include <iostream>
 
-
-#include "alphabet.hpp"
-#include "case.hpp"
-#include "caesar.hpp"
+#include "../include/vignere.hpp"
+#include "../include/alphabet.hpp"
+#include "../include/case.hpp"
+#include "../include/caesar.hpp"
 
 std::string v_fix_key(std::string text, std::string key) {
     key = upper(key);

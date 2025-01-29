@@ -1,5 +1,7 @@
-#include "alphabet.hpp"
-#include "caesar.hpp"
+#include <iostream>
+
+#include "../include/caesar.hpp"
+#include "../include/alphabet.hpp"
 
 std::string c_encrypt(std::string plaintext, int key) {
 
