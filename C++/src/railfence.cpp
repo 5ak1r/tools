@@ -35,9 +35,14 @@ std::string rail_decrypt(std::string ciphertext, int depth) {
     std::string plaintext;
     int cipher_size = ciphertext.size();
 
+    /*
+    0 = 0, 2 * depth - 1
+    1 = 1, 2 * depth - 2
+    2 = 2, 2 * depth - 3*/
+    
     std::vector<int> positions = generate_positions(depth);
 
-    
+
     return plaintext;
 }
 
